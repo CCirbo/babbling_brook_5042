@@ -29,8 +29,8 @@ pry(main)> student.age
 pry(main)> student.scores
 # => []
 
-pry(main)> student.log_score(89)
-
+pry(main)> student.log_score(89)  #These are command methods
+                                  #we don't care about their return
 pry(main)> student.log_score(78)    
 
 pry(main)> student.scores

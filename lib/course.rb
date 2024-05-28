@@ -10,13 +10,12 @@ class Course
      end  
 
      def full?
-      if @students == [] 
-        false
-      else
-        @students == [2]
-        true
-        end
-     end
+        @students.length >= @capacity
+    #     return true
+    #    else           This method is doing this, so we don't need the if/els
+    #     return false  This is because the if and else return booleans
+           #when that happens the method here can just be writtin without the if/els
+     end 
 
     def enroll(student) 
         @students << student
